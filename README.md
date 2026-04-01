@@ -214,17 +214,3 @@ The final plot includes:
   - Note: `i` is the episode index, so this triggers for *all steps* in episodes 0, 20, 40, ... (not “every 20 steps”).
 
 ---
-
-## Possible Improvements
-
-- Use a clearer and consistent state representation across methods (phases vs. observed returns).
-- Fix/adjust target network update frequency (e.g., every fixed number of steps).
-- Add:
-  - reward normalization
-  - better exploration schedules
-  - Double DQN / Dueling DQN
-  - prioritized replay
-- Evaluate policies over multiple random seeds and report averages + confidence intervals.
-- Increase realism: allow multiple holdings, risk constraints, or correlated stock returns.
-
----
